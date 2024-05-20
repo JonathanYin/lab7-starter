@@ -139,7 +139,7 @@ class RecipeCard extends HTMLElement {
   		<div class="rating">
     		<span>5</span>
     		<img src="/assets/images/icons/${data.rating}-star.svg" alt="${data.rating} stars">
-    		<span>${data.numRatings}</span>
+    		<span>(${data.numRatings})</span>
   		</div>
   		<time>${data.lengthTime}</time>
   		<p class="ingredients">
